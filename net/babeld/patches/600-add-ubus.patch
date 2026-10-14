@@ -117,7 +117,7 @@ Subject: [PATCH] add ubus bindings
              local_notify_route_1(&local_sockets[i], route, kind);
      }
 +    if(ubus_bindings)
-+	    ubus_notify_route(route, kind);
++        ubus_notify_route(route, kind);
  }
  
  static void
